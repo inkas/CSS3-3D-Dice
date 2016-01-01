@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<title>Dice Game</title>
+		<link rel="stylesheet" href="css/style.css">
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script src="js/dice.js"></script>
+	</head>
+	
+	<body class="dice-game">
+		<div class="wrapper">			
+			<div class="relative full-height">
+				<section id="main-screen">
+					<div class="dice-wrapper">
+						<div id="dice" class="result-5 init" tabindex="1">
+							<div class="dice-side dice-innner-color x"></div>
+							<div class="dice-side dice-innner-color y"></div>
+							<div class="dice-side dice-innner-color z"></div>
+							<div class="side1 dice-side outer">
+								<div class="circle circle-center"></div>
+							</div>
+							<div class="side1 dice-side inner"></div>
+							<div class="side2 dice-side outer">
+								<div class="circle circle-top-right"></div>
+								<div class="circle circle-bottom-left"></div>
+							</div>
+							<div class="side2 dice-side inner"></div>
+							<div class="side3 dice-side outer">
+								<div class="circle circle-top-left"></div>
+								<div class="circle circle-center"></div>
+								<div class="circle circle-bottom-right"></div>
+							</div>
+							<div class="side3 dice-side inner"></div>
+							<div class="side4 dice-side outer">
+								<div class="circle circle-top-left"></div>
+								<div class="circle circle-top-right"></div>
+								<div class="circle circle-bottom-left"></div>
+								<div class="circle circle-bottom-right"></div>
+							</div>
+							<div class="side4 dice-side inner"></div>
+							<div class="side5 dice-side outer">
+								<div class="circle circle-top-left"></div>
+								<div class="circle circle-top-right"></div>
+								<div class="circle circle-center"></div>
+								<div class="circle circle-bottom-left"></div>
+								<div class="circle circle-bottom-right"></div>
+							</div>
+							<div class="side5 dice-side inner"></div>
+							<div class="side6 dice-side outer">
+								<div class="circle circle-top-left"></div>
+								<div class="circle circle-top-right"></div>
+								<div class="circle circle-middle-left"></div>
+								<div class="circle circle-middle-right"></div>
+								<div class="circle circle-bottom-left"></div>
+								<div class="circle circle-bottom-right"></div>
+							</div>
+							<div class="side6 dice-side inner"></div>
+						</div>
+					</div>
+					<div class="dice-actions">
+						<div class="expand"></div>
+						<button type="button" id="roll-dice" class="btn btn-primary h100">Roll Button</button>
+					</div>
+				</section>
+			</div>
+		</div>
+	</body>
+</html>
